@@ -7,7 +7,7 @@ GROUP BY `c`.`Name`
 ```
 
 ### complex
-```
+```SQL
 SELECT `t`.`CustomerId`, `t`.`Name`, `t0`.`Category`, `t0`.`TotalAmount`
 FROM (
     SELECT `o`.`CustomerId`, `c`.`Name`
